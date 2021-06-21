@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+.atas {
+    margin-top: -2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .atas {
+        margin-top: -1.7rem;
+    }
+}
+
+.menu {
+    margin-top: -12rem;
+}
+
+@media screen and (max-width: 600px) {
+    .atas {
+        margin-top: -0.5rem;
+    }
+    .menu {
+        margin-top: -2rem;
+    }
+}
+
+.gradient {
+    background: rgb(138, 132, 247);
+    background: linear-gradient(118deg, rgba(138, 132, 247, 1) 0%, rgba(183, 179, 247, 1) 100%);
+}
+
+.page-header {
+    margin-top: 100px;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    background-color: #c3a0fa;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transform: 0.3s;
+    font-weight: bold;
+}
+
+.bg-kuning {
+    background-color: #00ccff;
+    transform: 0.3s;
+}
+
+.bg-kuning:hover {
+    background-color: #00a3cc;
+}

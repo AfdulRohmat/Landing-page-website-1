@@ -1,0 +1,19 @@
+.ikon {
+    color: #808080;
+}
+
+.row .ikon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10%;
+    font-size: 1rem;
+    display: inline-flex !important;
+    justify-content: center !important;
+}
+
+@media screen and (max-width: 768px) {
+    .kotak {
+        margin-top: 1rem;
+    }
+}

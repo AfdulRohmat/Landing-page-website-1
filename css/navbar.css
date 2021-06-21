@@ -1,0 +1,13 @@
+.tebal-sedang {
+    font-weight: bold;
+    color: grey;
+}
+
+.bg-ungu {
+    background-color: #c3a0fa !important;
+    transform: 0.3s;
+}
+
+.bg-ungu:hover {
+    background-color: #6f6acc !important;
+}

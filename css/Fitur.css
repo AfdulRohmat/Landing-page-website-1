@@ -1,0 +1,21 @@
+.row .font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fitur {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fitur ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.fitur ul li {
+    padding-left: 2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}

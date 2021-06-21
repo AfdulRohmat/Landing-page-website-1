@@ -1,0 +1,21 @@
+.gallery {
+    margin-top: 5rem;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+    margin-bottom: -1rem;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.row .foto img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 500px;
+}
+
+.row .foto img:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
